@@ -87,12 +87,5 @@ TODO_Project/
 
 ---
 
-## 🔎 Filter TODOs
-
-TODOs can be filtered using the completed query parameter.
-
-✅ Get Completed TODOs
-
-GET /todos?completed=true
 
 
