@@ -73,14 +73,3 @@ TODO_Project/
 
 ---
 
-## API ENDPOINTS
-
-| Method    | Endpoint               | Description            |
-| --------- | ---------------------- | ---------------------- |
-| 🟢 POST   | `/todos`               | Create a TODO          |
-| 🔵 GET    | `/todos`               | Get all TODOs          |
-| 🔵 GET    | `/todos/{id}`          | Get a TODO by ID       |
-| 🟡 PUT    | `/todos/{id}`          | Update a TODO          |
-| 🟠 PATCH  | `/todos/{id}/complete` | Mark TODO as completed |
-| 🔴 DELETE | `/todos/{id}`          | Delete a TODO          |
-
