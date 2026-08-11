@@ -85,4 +85,14 @@ TODO_Project/
 | 🟠 PATCH  | `/todos/{id}/complete` | Mark TODO as completed |
 | 🔴 DELETE | `/todos/{id}`          | Delete a TODO          |
 
+---
+
+## 🔎 Filter TODOs
+
+TODOs can be filtered using the completed query parameter.
+
+✅ Get Completed TODOs
+
+GET /todos?completed=true
+
 
