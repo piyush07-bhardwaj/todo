@@ -135,9 +135,18 @@ TODOs can be filtered using the completed query parameter.
   {
   "title": "Learn FastAPI and SQLAlchemy",
   "description": "Complete the TODO project",
-  "completed": false
-}
-```
+  "completed": false }
+  
+
+---
+
+## 💾 Database
+
+The application uses:
+
+**SQLite + SQLAlchemy**
+
+The database is automatically created when the application starts.
 
 
 
