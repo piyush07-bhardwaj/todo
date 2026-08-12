@@ -148,6 +148,27 @@ The application uses:
 
 The database is automatically created when the application starts.
 
+## 🧩 Architecture
+```
+Client
+   │
+   ▼
+FastAPI Router
+   │
+   ▼
+Pydantic Schema
+   │
+   ▼
+Service Layer
+   │
+   ▼
+SQLAlchemy Model
+   │
+   ▼
+SQLite Database
+
+```
+
 
 
 
