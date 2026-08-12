@@ -108,10 +108,11 @@ TODOs can be filtered using the completed query parameter.
      ```
 
   - Request Body
-    ```
+  ```
     {
-  "title": "Learn FastAPI",
-  "description": "Complete the FastAPI TODO project"
+   "title": "Learn FastAPI",
+   "description": "Complete the FastAPI TODO project"
+  }
   ```
 
 ## 📤 Example Response
@@ -125,6 +126,19 @@ TODOs can be filtered using the completed query parameter.
 ```
 
 ## ✏️ Update a TODO
+- Endpoint
+  ```
+  PUT /todos/1
+  ```
+- Request Body
+  ```
+  {
+  "title": "Learn FastAPI and SQLAlchemy",
+  "description": "Complete the TODO project",
+  "completed": false
+}
+```
+
 
 
 
