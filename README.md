@@ -169,6 +169,40 @@ SQLite Database
 
 ```
 
+---
+
+##📁 Layer Responsibilities
+```
+| Layer       | Responsibility                           |
+| ----------- | ---------------------------------------- |
+| `routers/`  | Handles API endpoints and HTTP requests  |
+| `schemas/`  | Handles request and response validation  |
+| `services/` | Contains business logic                  |
+| `models/`   | Defines SQLAlchemy database models       |
+| `database/` | Handles database connection and sessions |
+| `tests/`    | Contains automated API tests             |
+```
+
+---
+
+## ⚙️ Setup
+- 1️⃣ Clone the Repository
+- 2️⃣ Create a Virtual Environment
+- 3️⃣ Activate the Virtual Environment
+- 4️⃣ Install Dependencies
+- ▶️ Run the Application
+   - The API will be available at:
+  ```
+  http://127.0.0.1:8000
+  ```
+
+  ---
+
+  ## 👨‍💻 Author
+  
+  Piyush Bhardwaj
+  
+
 
 
 
