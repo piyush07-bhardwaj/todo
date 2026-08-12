@@ -74,7 +74,7 @@ TODO_Project/
 
 ---
 
-## API ENDPOINTS
+## 📡 API Endpoints
 
 | Method    | Endpoint               | Description            |
 | --------- | ---------------------- | ---------------------- |
@@ -86,6 +86,45 @@ TODO_Project/
 | 🔴 DELETE | `/todos/{id}`          | Delete a TODO          |
 
 ---
+
+## 🔎 Filter TODOs
+TODOs can be filtered using the completed query parameter.
+- ✅ Get Completed TODOs
+  ```
+  GET /todos?completed=true
+  ```
+- ⏳ Get Incomplete TODOs
+  ```
+  GET /todos?completed=false
+  ```
+
+---
+
+## 📥 Example Request
+- ➕ Create a TODO
+   - Endpoint
+     ```
+     POST /todos
+     ```
+
+  - Request Body
+    ```
+    {
+  "title": "Learn FastAPI",
+  "description": "Complete the FastAPI TODO project"
+  ```
+
+## 📤 Example Response
+```
+{
+  "id": 1,
+  "title": "Learn FastAPI",
+  "description": "Complete the FastAPI TODO project",
+  "completed": false
+}
+```
+
+## ✏️ Update a TODO
 
 
 
